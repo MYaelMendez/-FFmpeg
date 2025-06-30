@@ -23,6 +23,16 @@ such as audio, video, subtitles and related metadata.
   multimedia content.
 * Additional small tools such as `aviocat`, `ismindex` and `qt-faststart`.
 
+## Optional Dependencies
+
+Some optional tooling can enhance the development experience. The
+`scripts/install_imagemagick.sh` helper installs [ImageMagick](https://imagemagick.org),
+which is required by a few tests and examples.
+
+```sh
+./scripts/install_imagemagick.sh
+```
+
 ## Documentation
 
 The offline documentation is available in the **doc/** directory.
